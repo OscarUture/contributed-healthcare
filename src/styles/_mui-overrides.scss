@@ -1,0 +1,39 @@
+.MuiCheckbox-colorPrimary,
+.MuiRadio-colorSecondary {
+  &.Mui-checked {
+    color: var(--rimac-checked) !important;
+  }
+}
+
+body .MuiTypography-root {
+  font-family: 'Lato', sans-serif;
+}
+
+.mui-submit {
+  height: calc(var(--spacing) * 6.5);
+  max-width: calc(var(--spacing) * 22);
+
+  &:not(:disabled) {
+    background-color: var(--rimac-red) !important;
+  }
+
+  .MuiButton-label {
+    color: #fff;
+  }
+
+  &:hover {
+    background-color: var(--rimac-red);
+  }
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}

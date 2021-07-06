@@ -1,0 +1,30 @@
+@import 'styles/variables';
+@import 'styles/scrollbar';
+@import 'styles/selection';
+@import 'styles/spacings';
+@import 'styles/sizings';
+@import 'styles/mui-overrides';
+
+html,
+body,
+main {
+  height: 100%;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.page {
+  margin: 0 auto;
+  width: 100%;
+}
